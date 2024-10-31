@@ -1,0 +1,158 @@
+* { 
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-menu{
+    background-color: #ffde59;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 24px;
+}
+
+.menu-list a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #233ce6;
+    padding: 20px;
+}
+
+.menu-list a:hover{
+    color: #0016ad;
+}
+
+.main{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #000000;
+    background-image: url(images/jogadoresnoprime.png);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+
+.main h1{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.main p{
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffde59;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.call-to-action{
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #00149d;
+    transition: transform 0.3s ease;
+}
+
+.call-to-action:hover{
+    transform: scale(1.03);
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.about{
+    background-color: #FFDE59;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about div h2{
+    color: #233ce6;
+    font-size: 27px;
+    margin-bottom: 14px;
+}
+
+.about div p{
+    color: #233ce6;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.about-players-img{
+    border-radius: 8px;
+    width: 450px;
+    height: 550px;
+}
+
+.players{
+    background-color: #233ce6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.players h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.players p{
+    margin-bottom: 40px;
+    font-style: italic;
+    color: #FFDE59;
+}
+
+.player-list{
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.players img{
+    width: 22%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
