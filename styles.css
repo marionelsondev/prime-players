@@ -9,6 +9,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .nav-menu{
     background-color: #ffde59;
     height: 80px;
@@ -72,7 +76,7 @@ body{
     font-size: 17px;
     font-weight: bold;
     color: #00149d;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .call-to-action:hover{
@@ -148,11 +152,51 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 0.3s ease;
 }
 
 .players img{
     width: 22%;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    transition: transform 0.5s ease;
+}
+
+.players img:hover{
+    transform: scale(1.03);
+}
+
+.action{
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 0;
+    padding: 12px 44px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #00149d;
+    margin-top: 18px;
+    transition: transform 0.5s ease;
+}
+
+.action:hover{
+    transform: scale(1.03);
+}
+
+footer{
+    width: 100%;
+    background-color: #FFDE59;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #233ce6;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer p{
+    margin-left: 12px;
 }
